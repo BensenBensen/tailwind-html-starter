@@ -16,6 +16,14 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
 
+.padded-multi-line {
+  display: inline;
+  background: black;
+  box-shadow: 10px 0 0 black, -10px 0 0 black;
+  box-decoration-break: clone;
+  line-height: 150%;
+}
+
 .custom-logo {
     display: block;
 }
