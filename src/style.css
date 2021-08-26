@@ -592,6 +592,19 @@ video {
   line-height: 2.5rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-\[120px\] {
+  font-size: 120px;
+}
+
+.text-\[80vh\] {
+  font-size: 80vh;
+}
+
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgba(248, 113, 113, var(--tw-text-opacity));
