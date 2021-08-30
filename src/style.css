@@ -645,6 +645,10 @@ video {
   width: 20rem;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }

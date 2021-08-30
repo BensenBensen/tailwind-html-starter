@@ -8,15 +8,6 @@
   line-height: 150%;
 }
 
-table th, table td {
-	padding: 1rem 0.5rem;
-	border-collapse: collapse;
-	min-width: 160px;
-	border: 1px solid white !important;
-}
-table td{
-	background: rgba(0, 0, 0, 0.05);
-}
 html, body {
   height: 100%;
 }
