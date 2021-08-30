@@ -620,10 +620,6 @@ video {
   position: relative;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .inline {
   display: inline;
 }
@@ -700,11 +696,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .no-underline {
