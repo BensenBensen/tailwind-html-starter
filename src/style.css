@@ -620,6 +620,11 @@ video {
   position: relative;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .inline {
   display: inline;
 }
@@ -662,6 +667,10 @@ video {
 
 .items-stretch {
   align-items: stretch;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-around {
