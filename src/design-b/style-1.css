@@ -1,0 +1,212 @@
+/*!
+Theme Name: coworking
+Author: Atomic Design Studios
+Description: subtheme test coworking
+Template: SanktWork
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Text Domain: SanktWork-child
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+tachyons is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+.custom-logo {
+    display: block;
+}
+
+.h6 {
+    height: 20rem;
+}
+
+.w6 {
+    width: 30rem;
+}
+
+.kontakt {
+width: 14rem;
+}
+
+.category-press .byline, .category-press-archive .byline,
+.stBlackSmall.dn, .stBlocksmall.dn {
+    display: none;
+}
+
+.stBlackSmall.dib, .stBlocksmall.dib {
+    width: 1.7rem;
+    height: 1.4rem;
+    margin: 0 4px 5px;
+    display: inline-block;
+}
+
+.stBlocksmall.dib {
+  margin-bottom: 14px;
+}
+
+.locations img {
+    max-width: 600px;
+}
+
+
+
+.locations a:hover:after, .locations a:focus:after {
+    content: '';
+    position: relative;
+    left: 2rem;
+    top: -3px;
+    width: 0;
+    height: 0;
+ border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #f92d57;
+    clear: both;
+    display: inline-block;
+}
+
+.loctucholsky, .locostkreuz, .lochegel, .loctorstrasse,
+.loczehd, .locrosen, .locblock, .locbpart,
+.lockreuzberg, .lockastanienallee,
+.locbabelsberg, .locroxy, .locring, .locdistrict, .locufer {
+  position: absolute;
+  z-index: 999;
+  visibility: hidden;
+}
+
+a.ringbahn:hover + div.locring,
+a.tucholsky:hover + div.loctucholsky,
+a.ostkreuz:hover + div.locostkreuz,
+a.hegel:hover + div.lochegel,
+a.torstrasse:hover + div.loctorstrasse,
+a.kreuzberg:hover + div.lockreuzberg,
+a.kastanienallee:hover + div.lockastanienallee,
+a.babelsberg:hover + div.locbabelsberg,
+a.roxy:hover + div.locroxy,
+a.rosenthaler:hover + div.locrosen,
+a.zehdenicker:hover + div.loczehd,
+a.bpart:hover + div.locbpart,
+a.blocko:hover + div.locblock,
+a.districtone:hover + div.locdistrict,
+a.ufer:hover + div.locufer
+ {
+  visibility: visible;
+} 
+
+.page-template-location-single .mw5 {
+  max-width: 16rem;
+  width: 16rem;
+}
+
+button.accordion {
+    padding: .3rem 0;
+     background: url("") no-repeat #fff 99% 5px;
+}
+
+button.accordion:hover, button.services:hover {
+ background-image: url("");
+}
+
+button.accordion.active {
+ background-image: url("");
+}
+
+button.accordion.active:hover, button.services.active:hover {
+ background-image: url("");
+}
+
+button.services {
+     background: url("") no-repeat #111 95.5% 2.2rem;
+}
+button.services.active {
+ background-image: url("");
+}
+
+@media screen and (max-width:30em) { 
+.w-two-thirds-l.cover { height: 12rem; }
+
+}
+
+@media screen and (min-width: 30em) and (max-width:60em) { 
+.venuebox:nth-child(1) { border-right: solid black .25rem;}
+.venuebox:nth-child(3) { border-right: solid black .25rem;}
+.venuebox:nth-child(5) { border-right: solid black .25rem;}
+.venuebox { border-bottom: solid black .25rem;}
+.w-two-thirds-l.cover { height: 20rem; }
+.h6-m { height: 20rem; }
+#custom_html-5 { padding-top: 2rem; }
+}
+
+@media screen and (min-width:60em) { 
+#primary-menu li { padding: 1.3rem 2rem .9rem }
+.loctucholsky, .locostkreuz, .lochegel, .loctorstrasse,
+.loczehd, .locrosen, .locblock, .locbpart, .lockreuzberg, .lockastanienallee,
+.locbabelsberg, .locroxy, .locring, .locdistrict, .locufer { right: 15%; }
+
+.locrosen { top: -10%; }
+.loczehd { top: 0; }
+.lockastanienallee { top: 5%; }
+.loctorstrasse { top: 15%; }
+.loctucholsky { top: 25%; }
+.locbpart { top: 30%; }
+.lockreuzberg { top: 40%; }
+
+.locufer { top: 45%; } 
+.locroxy { top: 50%; }
+.locdistrict { top: 55%; }
+.locring { top: 60%; }
+.locbabelsberg { top: 65%; }
+.locblock { top: 65%; }
+
+.venuebox:nth-child(1) { border-right: solid black .25rem;}
+.venuebox:nth-child(2) { border-right: solid black .25rem;}
+.venuebox:nth-child(4) { border-right: solid black .25rem;}
+.venuebox:nth-child(5) { border-right: solid black .25rem;}
+.w-two-thirds-l.cover { height: 25rem; }
+}
+
+/* homepage video */
+
+#videoBG {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url("") no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+/* FOOTER */
+
+.site-footer ul.menu {
+    padding-left: 0;
+    margin: 0;
+}
+
+.site-footer .menu li {
+    list-style: none;
+}
+
+.site-footer .menu a, .site-footer .menu a:visited, .site-footer .menu a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer .menu a:hover {
+  color: #f92d57
+}
+
+@media screen and (max-width:360px) { 
+
+.hdr .ph1 { padding-left: 0; padding-right: 0 }
+
+}
