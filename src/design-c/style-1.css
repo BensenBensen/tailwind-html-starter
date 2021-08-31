@@ -1,0 +1,60 @@
+.custom-logo { display: block; }
+.h6 { height: 20rem; }
+.w6 { width: 30rem; }
+.kontakt { width: 14rem; }
+.category-press .byline, .category-press-archive .byline, .stBlackSmall.dn, .stBlocksmall.dn { display: none; }
+.stBlackSmall.dib, .stBlocksmall.dib { width: 1.7rem; height: 1.4rem; margin: 0px 4px 5px; display: inline-block; }
+.stBlocksmall.dib { margin-bottom: 40px; }
+.locations img { max-width: 600px; }
+.locations a:hover::after, .locations a:focus::after { content: ""; position: relative; left: 2rem; top: -3px; width: 0px; height: 0px; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 20px solid rgb(249, 45, 87); clear: both; display: inline-block; }
+.loctucholsky, .locostkreuz, .lochegel, .loctorstrasse, .loczehd, .locrosen, .locblock, .locbpart, .lockreuzberg, .lockastanienallee, .locbabelsberg, .locroxy, .locring, .locdistrict, .locufer { position: absolute; z-index: 999; visibility: hidden; }
+a.ringbahn:hover + div.locring, a.tucholsky:hover + div.loctucholsky, a.ostkreuz:hover + div.locostkreuz, a.hegel:hover + div.lochegel, a.torstrasse:hover + div.loctorstrasse, a.kreuzberg:hover + div.lockreuzberg, a.kastanienallee:hover + div.lockastanienallee, a.babelsberg:hover + div.locbabelsberg, a.roxy:hover + div.locroxy, a.rosenthaler:hover + div.locrosen, a.zehdenicker:hover + div.loczehd, a.bpart:hover + div.locbpart, a.blocko:hover + div.locblock, a.districtone:hover + div.locdistrict, a.ufer:hover + div.locufer { visibility: visible; }
+.page-template-location-single .mw5 { max-width: 16rem; width: 16rem; }
+button.accordion { padding: 0.3rem 0px; background: rgb(255, 255, 255) url("") no-repeat scroll 99% 5px; }
+button.accordion:hover, button.services:hover { background-image: url(""); }
+button.accordion.active { background-image: url(""); }
+button.accordion.active:hover, button.services.active:hover { background-image: url(""); }
+button.services { background: rgb(17, 17, 17) url("") no-repeat scroll 95.5% 2.2rem; }
+button.services.active { background-image: url(""); }
+@media screen and (max-width: 30em) {
+  .w-two-thirds-l.cover { height: 12rem; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .venuebox:nth-child(1) { border-right: 0.25rem solid black; }
+  .venuebox:nth-child(3) { border-right: 0.25rem solid black; }
+  .venuebox:nth-child(5) { border-right: 0.25rem solid black; }
+  .venuebox { border-bottom: 0.25rem solid black; }
+  .w-two-thirds-l.cover { height: 20rem; }
+  .h6-m { height: 20rem; }
+  #custom_html-5 { padding-top: 2rem; }
+}
+@media screen and (min-width: 60em) {
+  #primary-menu li { padding: 1.3rem 2rem 0.9rem; }
+  .loctucholsky, .locostkreuz, .lochegel, .loctorstrasse, .loczehd, .locrosen, .locblock, .locbpart, .lockreuzberg, .lockastanienallee, .locbabelsberg, .locroxy, .locring, .locdistrict, .locufer { right: 15%; }
+  .locrosen { top: -10%; }
+  .loczehd { top: 0px; }
+  .lockastanienallee { top: 5%; }
+  .loctorstrasse { top: 15%; }
+  .loctucholsky { top: 25%; }
+  .locbpart { top: 30%; }
+  .lockreuzberg { top: 40%; }
+  .locufer { top: 45%; }
+  .locroxy { top: 50%; }
+  .locdistrict { top: 55%; }
+  .locring { top: 60%; }
+  .locbabelsberg { top: 65%; }
+  .locblock { top: 65%; }
+  .venuebox:nth-child(1) { border-right: 0.25rem solid black; }
+  .venuebox:nth-child(2) { border-right: 0.25rem solid black; }
+  .venuebox:nth-child(4) { border-right: 0.25rem solid black; }
+  .venuebox:nth-child(5) { border-right: 0.25rem solid black; }
+  .w-two-thirds-l.cover { height: 25rem; }
+}
+#videoBG { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; transform: translateX(-50%) translateY(-50%); background: rgba(0, 0, 0, 0) url("") no-repeat scroll 0% 0% / cover; transition: opacity 1s ease 0s; }
+.site-footer ul.menu { padding-left: 0px; margin: 0px; }
+.site-footer .menu li { list-style: outside none none; }
+.site-footer .menu a, .site-footer .menu a:visited, .site-footer .menu a:focus { color: rgb(255, 255, 255); text-decoration: none; }
+.site-footer .menu a:hover { color: rgb(249, 45, 87); }
+@media screen and (max-width: 360px) {
+  .hdr .ph1 { padding-left: 0px; padding-right: 0px; }
+}
