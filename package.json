@@ -6,7 +6,7 @@
     "scripts": {
       "test": "cp ./src/index.html ./dist/",
         "hmr": "live-server src --port=8081",
-        "watch": "npx tailwindcss -o ./src/style.css --watch",
+        "watch": "npx tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch",
         "build": "mkdir dist && cp ./src/* ./dist/"
     },
     "keywords": [],
